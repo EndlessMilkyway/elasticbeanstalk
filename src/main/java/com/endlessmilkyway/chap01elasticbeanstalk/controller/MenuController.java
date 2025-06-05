@@ -16,11 +16,11 @@ public class MenuController {
     @GetMapping("/health")
     public String healthCheck() {
 
-        return "local health check!!";
+        return "cloud health check!!";
     }
 
     @GetMapping("/menus/{menuCode}")
-    public MenuDTO findByMenuCode(@PathVariable int menuCode) {
+    public MenuDTO findByMenuCode(@PathVariable("menuCode") int menuCode) {
 
         return service.findByMenuCode(menuCode);
     }

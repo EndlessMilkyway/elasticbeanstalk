@@ -1,0 +1,12 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name":  "240644735326.dkr.ecr.ap-northeast-2.amazonaws.com/milkyway08/github-actions-test:spring-backend",
+    "Update": "true"
+  },
+  "Ports": [
+    {
+      "ContainerPort": 5000
+    }
+  ]
+}

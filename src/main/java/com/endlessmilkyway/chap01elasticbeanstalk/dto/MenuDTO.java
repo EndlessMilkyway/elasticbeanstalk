@@ -1,16 +1,8 @@
 package com.endlessmilkyway.chap01elasticbeanstalk.dto;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.Data;
 
-@NoArgsConstructor
-@AllArgsConstructor
-@Getter
-@Setter
-@ToString
+@Data
 public class MenuDTO {
 
     private int menuCode;
